@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* nav start */
+
+.banner{
+    background-image: url('image/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-position:top center;
+    width: 90%;
+    max-width: 1320px;
+    height: 100vh;
+    margin:50px auto;
+    border-radius: 16px;   
+   
+    
+}
+
+.img-grd{
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    width: 100%;
+    padding-top: 200px;
+    
+    
+    
+
+}
+
+h3{
+    color: white;
+    text-align: center;
+    padding-top: px;
+    padding-right: 330px;
+    padding-left:330px;
+    font-size:32px;
+    font-style: none;
+    font-weight: 400;
+    height: 95px;
+   
+    
+}
+
+h1{
+    color:white;
+    text-align: center;
+    font-size: 72px;
+    
+
+}
+
+/* nav end */
