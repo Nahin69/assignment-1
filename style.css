@@ -14,8 +14,6 @@
     height: 600px;
     margin:50px 0px 0px 300px; 
     border-radius: 15px; 
-    font-size: 2px;  
-   
     
 }
 
@@ -50,8 +48,8 @@ h1{
 
 .parcent-head{
     color:#F00;
+    font-family: 'Inter', sans-serif;
     font-size: 88px;
-    font-weight: 700;
     line-height: normal;
     margin-top: 50px;
     margin-bottom: 40px;
@@ -108,6 +106,7 @@ h1{
    margin-left:120px;
    font-size: 60px;
    letter-spacing: 7px;
+   font-weight: 900;
 
 
 }
@@ -120,6 +119,7 @@ h1{
     margin-left: 120px;
     font-size: 18px;
     line-height: 30px;
+    font-weight: 400;
 
 
 
@@ -128,13 +128,13 @@ h1{
 
 .welcome-btn{
     border-radius: 5px;
-    background-color: whitesmoke;
+    background: none;
     border: 0;
-    color:#070211;
+    color: white;
     font-size: 20px;
     font-weight: 700;
     padding: 5px 15px;
-    margin: 90px 0px 0px 158px;
+    margin: 40px 0px 0px 158px;
 
 }
 
@@ -206,12 +206,12 @@ h1{
         /* Subscribe menu start */
 
 .Subscribe{
-    border: solid red;
+    
     width: 90%;
     max-width: 1320px;
     height:600px;
     background: rgba(255, 0, 0, 0.05);
-    margin:50px 0px 0px 300px; 
+    margin:120px 0px 0px 300px; 
     border-radius: 15px;
     text-align:center;
 
@@ -227,6 +227,7 @@ h1{
     padding-top: 40px;
     font-family: 'Merriweather', serif;
     font-size:48px;
+    font-size: 900;
 
 }
 
@@ -236,32 +237,157 @@ h1{
     padding-top: 23px;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
+    font-weight: 400;
 }
 
 
-.Subscribe input[type="email"]{
-    margin-top: 48px;
-    width: 340px;
+
+ input[type="email"]{
+    margin-top: 50px;
+    width: 380px;
     height: 60px;
     border: none;
     outline: none;
-    padding: 0 30px;
+    padding-top: 5px;
+    padding-left: 30px;
     border-radius: 50px 0px 0px 50px;
+    font-weight: 400;
 
 }
 
 .Subscribe input[type="submit"]{
     position: relative;
     background: #F00;
-    color:white;
-     width: 150px;
-     height:60px;
-     border: none;
-    left: -9px;
-     border-radius: 0px 50px 50px 0px;
+    color:rgb(243, 236, 236); 
+    width: 180px;
+    height:65px;
+    border: none;
+    outline: none;
+    left: -5px;
+    border-radius: 0px 50px 50px 0px;
+    font-weight: 600;
 }
 
 
 
 
-         /* Subscribe menu end */
+/* Subscribe menu end */
+
+/* contract start */
+
+.footer-main{
+    width:100%;
+    height: 600px;
+    background-color: #070211;
+    margin-top: 126px;
+    
+
+}
+
+.line{
+    margin: 0px 140px 0px 140px;
+    border:1px solid rgba(255, 255, 255, 0.15);
+
+    
+
+    
+}
+
+
+.footer-contract{
+    color:#FFF;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer-pera{
+    padding:120px 0px 50px 140px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.footer-info{
+    padding: 100px 290px 50px 0px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    
+    
+}
+
+
+.footer-contract a{
+    color:#FFF;
+    display:block;
+
+}
+
+.footer-in{
+    gap:14px;
+    display: flex;
+    
+    /* padding-right: 290px; */
+    
+    
+}
+
+.footer-in a{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer-iw{
+    gap:16px;
+    display: flex;
+    padding:5px;
+    
+
+}
+
+.footer-iw a{
+    text-decoration: none;
+    font-weight: 500;
+    
+}
+
+
+.footer-img{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 48px 0px 48px 0px;
+
+} 
+
+
+.unsubscribe{
+    color:#FFF;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.unsubscribe-pera{
+    padding: 50px 0px 0px 140px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+
+.unsubscribe-sub{
+    padding: 50px 140px 0px 0px;
+    
+}
+
+input[type="submit"]{
+    color:#FFF;
+    font-family: 'Inter', sans-serif;
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* contract ends */
