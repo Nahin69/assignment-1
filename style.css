@@ -3,51 +3,265 @@
     padding: 0;
 }
 
-/* nav start */
+/* banner start */
 
 .banner{
-    background-image: url('image/Banner\ Image.png');
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('image/Banner\ Image.png');
     background-repeat: no-repeat;
     background-position:top center;
     width: 90%;
     max-width: 1320px;
-    height: 100vh;
-    margin:50px auto;
-    border-radius: 16px;   
+    height: 600px;
+    margin:50px 0px 0px 300px; 
+    border-radius: 15px; 
+    font-size: 2px;  
    
     
 }
 
-.img-grd{
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-    width: 100%;
-    padding-top: 200px;
-    
-    
-    
-
-}
 
 h3{
-    color: white;
+    color:white;
+    font-family: 'Merriweather', serif;
     text-align: center;
-    padding-top: px;
-    padding-right: 330px;
-    padding-left:330px;
+    padding-top: 170px;
     font-size:32px;
     font-style: none;
     font-weight: 400;
-    height: 95px;
+    
    
     
 }
 
 h1{
     color:white;
+    font-family: 'Merriweather', serif;
     text-align: center;
     font-size: 72px;
+    padding-top: 30px;
+    
     
 
 }
 
-/* nav end */
+.parcent{
+    text-align: center;
+}
+
+.parcent-head{
+    color:#F00;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    
+}
+
+.parcent-p{
+    color:#F00;
+    font-family: 'Inter', sans-serif;
+    font-size:24px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.parcent-p2{
+    color:#070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.parcent-img{
+    margin-top:48px;
+}
+
+
+.welcome{
+     background-image:linear-gradient(90deg, #070211 10%, rgba(7, 2, 17, 0.00) 100%), url('image/Vectorrr.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:90%;
+    max-width: 1320px;
+    height: 600px;
+    margin: 50px 0px 0px 300px;
+    border-radius: 15px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.welcome-content{
+    max-width: 1320px;
+    margin-bottom:40px;
+    
+}
+
+
+.welcome-head{
+   color:white;
+   font-family: 'Merriweather', serif;
+   margin-top:127px;
+   margin-left:120px;
+   font-size: 60px;
+   letter-spacing: 7px;
+
+
+}
+
+
+.welcome-p{
+    color:rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', sans-serif;
+    margin-top: 24px;
+    margin-left: 120px;
+    font-size: 18px;
+    line-height: 30px;
+
+
+
+}
+
+
+.welcome-btn{
+    border-radius: 5px;
+    background-color: whitesmoke;
+    border: 0;
+    color:#070211;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px 15px;
+    margin: 90px 0px 0px 158px;
+
+}
+
+
+.welcome-img{
+
+    padding-right:160px;
+    padding-bottom: 50px;
+}
+
+
+/* banner end */
+
+ /* Our Awesome Portfolio start */
+
+
+.portfolio-all{
+    border: solid white;
+    width:90%;
+    max-width: 1320px;
+    height:120vh;
+    margin: 120px 0px 0px 300px;
+    
+}
+
+
+.portfolio-all h4{
+    color:#F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height:normal;
+    margin-bottom:10px;
+}
+
+
+.portfolio-all h2{
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.portfolio-all p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size:20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.portfolio-img{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+   
+   
+}
+
+.portfolio-gift{
+    box-shadow: 0px 3px 90px 0px rgba(0,0,0,0.06);
+    
+}
+
+ /* Our Awesome Portfolio ends */
+
+
+        /* Subscribe menu start */
+
+.Subscribe{
+    border: solid red;
+    width: 90%;
+    max-width: 1320px;
+    height:600px;
+    background: rgba(255, 0, 0, 0.05);
+    margin:50px 0px 0px 300px; 
+    border-radius: 15px;
+    text-align:center;
+
+
+}
+
+.Subscribe-img{
+    padding-top: 80px;
+}
+
+
+.Subscribe h2{
+    padding-top: 40px;
+    font-family: 'Merriweather', serif;
+    font-size:48px;
+
+}
+
+
+.Subscribe p{
+    color: rgba(7, 2, 17, 0.60);
+    padding-top: 23px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+
+.Subscribe input[type="email"]{
+    margin-top: 48px;
+    width: 340px;
+    height: 60px;
+    border: none;
+    outline: none;
+    padding: 0 30px;
+    border-radius: 50px 0px 0px 50px;
+
+}
+
+.Subscribe input[type="submit"]{
+    position: relative;
+    background: #F00;
+    color:white;
+     width: 150px;
+     height:60px;
+     border: none;
+    left: -9px;
+     border-radius: 0px 50px 50px 0px;
+}
+
+
+
+
+         /* Subscribe menu end */
